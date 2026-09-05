@@ -4,9 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Face and Eye Detection</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style/style.css') }}">
     </head>
     <body>
         <h1>Face and Eye Detection</h1>
-        <img src="{{ url_for('video_feed') }}" alt="Video Feed">
+        <img src="{{ url_for('video_feed') }}" width="640" height="50%" alt="Video Feed">
     </body>
 </html>
